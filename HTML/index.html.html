@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقهى الشيخ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>مقهى الشيخ</h1>
+        <p>مكانك المفضل للاستراحة والتمتع بالجو الممتع!</p>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>القائمة</h2>
+        <div class="menu-section">
+            <!-- Soft Drinks Section -->
+            <div class="menu-category">
+                <h3>المشروبات</h3>
+                <h4>المشروبات الساخنة</h4>
+                <ul>
+                    <li>قهوة - 8 شيكل</li>
+                    <li>كابتشينو - 8 شيكل</li>
+                    <li>حليب شوكولاتة - 8 شيكل</li>
+                    <li>شاي - 8 شيكل</li>
+                </ul>
+                <h4>المشروبات الباردة</h4>
+                <ul>
+                    <li>كوكا كولا - 8 شيكل</li>
+                    <li>فانتا - 8 شيكل</li>
+                    <li>عصير - 8 شيكل</li>
+                    <li>ريد بول - 10 شيكل</li>
+                </ul>
+            </div>
+
+            <!-- Food Section -->
+            <div class="menu-category">
+                <h3>الطعام</h3>
+                <h4>الوجبات</h4>
+                <ul>
+                    <li>وجبة صدر دجاج - 30 شيكل</li>
+                    <li>وجبة شنيتزل - 30 شيكل</li>
+                    <li>وجبة كباب - 35 شيكل</li>
+                    <li>إضافة جبنة - 5 شيكل</li>
+                </ul>
+                <h4>الوجبات الخفيفة</h4>
+                <ul>
+                    <li>مافن - 8 شيكل</li>
+                    <li>دوريتوس - 5 شيكل</li>
+                    <li>شوكولاتة - 5 شيكل</li>
+                </ul>
+            </div>
+
+            <!-- Shisha Section -->
+            <div class="menu-category">
+                <h3>الشيشة</h3>
+                <ul>
+                    <li>شيشة عادية - 15 شيكل</li>
+                    <li>شيشة ديلوكس - 20 شيكل</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gaming Section -->
+    <section id="gaming">
+        <h2>قسم الألعاب</h2>
+        <p>استمتع بلعب FIFA في مقهى الشيخ! السعر 20 شيكل لكل ساعة.</p>
+        <div id="booking">
+            <h3>حجز مكان للعب</h3>
+            <form id="booking-form">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="time">الوقت المطلوب:</label>
+                <input type="datetime-local" id="time" name="time" required>
+
+                <button type="submit">حجز</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location">
+        <h2>الموقع</h2>
+        <div class="location-container">
+            <p>نحن في جت، إسرائيل بجانب محطة وقود دور ألون</p>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.9810545234416!2d35.02280457693299!3d32.42288148106502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d30ac7c1b0385%3A0x4b3b94d44a5ef12f!2z2KfZhNmEINmE2YTYp9mE2YrYqQ!5e0!3m2!1sar!2sil!4v1701164384964!5m2!1sar!2sil" 
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 مقهى الشيخ. كل الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
